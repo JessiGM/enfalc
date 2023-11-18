@@ -1,0 +1,391 @@
+@font-face {
+    font-family: "fuente_1";
+    src: url(/font/Krub-Light.ttf);
+}
+
+@font-face {
+    font-family: "fuente_2";
+    src: url(/font/Krub-Bold.ttf);
+}
+
+@font-face {
+    font-family: "fuente_3";
+    src: url(/font/Krub-SemiBold.ttf);
+}
+
+html {
+    font-family: "fuente_3";
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --color-primary: #1f456e;
+    --color-secondary: #63c5da;
+    --color-tertiary: white;
+    --color-quaternary: gray;
+    --color_five: rgb(219, 221, 225);
+}
+
+:root {
+    --font-small: 14px;
+    --font-medium: 17px;
+    --font-large: 20px;
+    --font-mlarge: 24px;
+    --font-glarge: 32px;
+    --font-xlarge: 40px;
+}
+
+nav {
+    background-color: var(--color-primary);
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+}
+
+ul li {
+    margin: 0 20px;
+    font-size: var(--font-medium);
+    text-decoration: none;
+    list-style: none;
+    color: var(--color-tertiary);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover
+{
+    cursor: pointer;
+}
+
+ul li:nth-child(3) {
+    margin-right: 40px;
+}
+
+nav img {
+    width: 120px;
+    display: flex;
+    margin: 0 12px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--color-tertiary);
+}
+
+.button1 {
+    background-color: var(--color-tertiary);
+    color: var(--color-primary);
+    font-family: "fuente_3";
+    font-size: var(--font-medium);
+    height: 40px;
+    width: 160px;
+}
+
+td ul a {
+    color: var(--color-primary);
+    font-size: var(--font-medium);
+}
+
+
+
+button {
+    width: 200px;
+    height: 60px;
+    border-radius: 80px;
+    border: none;
+    background-color: var(--color-primary);
+    color: var(--color-tertiary);
+    font-size: var(--font-large);
+    margin: 40px 0;
+    box-shadow: 0px 2px 3px 0px black;
+} 
+
+button:hover
+{
+    cursor: pointer;
+}
+
+.class_header {
+    background-image: url(/image/prueba4.jpg);
+    width: 100%;
+    height: 650px;
+    margin: 0px;
+    font-size: var(--font-mlarge);
+    font-family: "fuente_2";
+    color: var(--color-primary);
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding: 80px;
+}
+
+.class_header h1 {
+    font-size: var(--font-xlarge);
+    margin-bottom: 120px;
+}
+
+.container_1 {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.imagen_1 {
+    width: 20%;
+    float: right;
+}
+
+.div_1 {
+    width: 60%;
+}
+
+.div_1 h3 {
+    color: var(--color-primary);
+}
+
+.div_1 p {
+    color: var(--color-primary);
+    margin-top: 20px;
+}
+
+.div_1 h3 {
+    font-family: "fuente_2";
+    font-size: var(--font-mlarge);
+    margin-bottom: 80px;
+}
+
+.container_2 {
+    width: 100%;
+    height: 400px;
+    background-color: var(--color-primary);
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.image1 {
+    width: 30%;
+    height: 40%px;
+    float: left;
+}
+
+.div_2 {
+    width: 60%;
+    color: var(--color-tertiary);
+}
+
+.div_2 h2 {
+    font-size: var(--font-xlarge);
+    margin-top: 0;
+}
+
+.container_3 {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.container_3 h2 {
+    color: var(--color-primary);
+    font-size: var(--font-xlarge);
+
+}
+
+.image_2 {
+    display: flex;
+    justify-content: center;
+    gap: 8%;
+}
+
+.container_3 img {
+    width: 15%;
+    margin: 25px 0;
+}
+
+.container_4 {
+    background-color: var(--color-primary);
+    color: var(--color-tertiary);
+    width: 100%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.div_3 {
+    width: 40%;
+}
+
+.div_3 img {
+    width: 40%;
+    margin: 30px;
+}
+
+.div_3
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div_4 {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.div_4 h2 {
+    font-size: var(--font-xlarge);
+}
+
+table {
+    width: 70%;
+    height: 500px;
+    border-collapse: collapse;
+    justify-content: center;
+    text-align: center;
+    margin: 40px;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+th {
+    height: 40px;
+    font-size: var(--font-mlarge);
+}
+
+thead {
+    font-size: 18px;
+    background-color: #1f456e;
+    font-weight: bold;
+    color: #fff;
+}
+
+caption {
+    font-size: 20px;
+}
+
+.tabla {
+    display: flex;
+    justify-content: center;
+}
+
+.boton p {
+    color: white;
+    font-size: var(--font-medium);
+}
+
+.boton input{
+    color: white;
+    font-size: var(--font-medium);
+    background-color: var(--color-primary);
+    width: 250px;
+    height: 56px;
+    border: 1px solid var(--color-primary);
+    border-radius: 20px;
+    box-shadow: 0px 2px 3px 0px black;
+    text-align: center;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.boton :hover
+{
+    background-color: #275485;
+    cursor: pointer;
+}
+
+.container_5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boton2 input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.social_media {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: var(--color-primary);
+    text-align: center;
+}
+
+.social_media h2 {
+    font-size: var(--font-xlarge);
+    text-align: center;
+}
+
+.container_6 {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container_6 img {
+    width: 200px;
+    margin-top: 80px;
+}
+
+.social_media p {
+    font-size: var(--font-large);
+}
+
+.contact_info {
+    color: var(--color-primary);
+}
+
+.contact_container {
+    height: 100px;
+    margin: 200px;
+}
+
+footer {
+    background-color: var(--color-primary);
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: var(--color-tertiary);
+}

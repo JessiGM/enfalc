@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/image/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="registro.css">
+    <title>Formulario paciente</title>
+</head>
+<body>
+
+    <h1 class="title">Formulario de registro paciente</h1>
+
+        <div class="container_7">
+            <div class="item_1">
+                <label for="name">Nombre y Apellido</label>
+                <input type="text" placeholder="Nombre y Apellido completo">
+            </div>
+            <div class="item_2">
+                <label for="t_documento">Tipo de Documento</label>
+                <label for="cedula_ciu">CC</label>
+                <input type="radio" name="cedula_ciu" id="t_documento">
+                <label for="cedula_ext">CE</label>
+                <input type="radio" name="cedula_ext" id="t_documento">
+                <label for="pasaporte">PA</label>
+                <input type="radio" name="pasaporte" id="t_documento">
+            </div>
+            <div class="item_3">
+                <label for="documento">Documento de identidad</label>
+                <input type="text" placeholder="12345"> 
+            </div>
+            <div class="item_4">
+                <label for="genero">Género</label>
+                <label for="femenino">Femenino</label>
+                <input type="radio" name="femenino" id="genero">
+                <label for="masculino">Masculino</label>
+                <input type="radio" name="masculino" id="genero">
+            </div>
+            <div class="item_5">
+                <label for="f_nac">Fecha de nacimiento</label>
+                <input type="date" name="f_nac" id="f_nac">
+            </div>
+            <div class="item_6">
+                <select class="form_select" aria-label="departamento">
+                    <option selected>Departamento</option>
+                    <option value="antioquia">Antioquia</option>
+                    <option value="atlantico">Atlantico</option>
+                    <option value="bolivar">Bolivar</option>
+                </select>
+            </div>
+            <div class="item_7">
+                <select class="form_select" aria-label="municipio">
+                    <option selected>Municipio</option>
+                    <option value="medellin">Medellín</option>
+                    <option value="sabaneta">Sabaneta</option>
+                    <option value="itagui">Itagüi</option>
+                </select>
+            </div>
+            <div class="item_8">
+                <label for="direccion">Dirección de residencia</label>
+                <input type="text" name="direccion" id="direccion" placeholder="crr 00#00-00">
+            </div>
+            <div class="item_9">
+                <label for="telefono">Número de contacto</label>
+                <input type="number" name="telefono" id="telefono" placeholder="000-000-00-00">
+            </div>
+            <div class="item_10">
+                <label for="patologia">Antecedentes patológicos:</label>
+                <label for="patologia">Hipertensión arterial</label>
+                <input type="checkbox" name="hipertension" id="hipertension">
+                <label for="patologia">Diabetes</label>
+                <input type="checkbox" name="diabetes" id="diabetes">
+                <label for="patologia">Asma</label>
+                <input type="checkbox" name="asma" id="asma">
+                <label for="patologia">Otro</label>
+                <input type="checkbox" name="otro" id="otro">
+                <input type="text" name="otro" id="otro" placeholder="¿Cual?">
+            </div>
+            <div class="item_11">
+                <label for="cirugias">Antecedentes Quirúrgicos</label>
+                <input type="text" name="cirugias" id="cirugias" placeholder="Cirugias realizadas">
+            </div>
+            <div class="item_12">
+                <label for="medicamentos">Medicamentos</label>
+                <input type="text" name="medicamentos" id="medicamentos" placeholder="Medicamentos actuales">
+            </div>
+            <div class="item_13">
+                <label for="condiciones">Condiciones especiales</label>
+                <input type="text" name="condiciones" id="condiciones" placeholder="Necesidad especial">
+            </div>
+            <div class="item_14">
+                <label for="alergia">¿Tiene alguna alergia?</label>
+                <input type="text" name="alergia" id="alergia" placeholder="Alergia a medicamento o material">
+            </div>
+        </div>
+
+    <div class="boton2">
+        <div class="boton">
+            <input type="button" value="Registrar" onclick="loguear()">
+        </div>
+    </div>
+
+</body>
+
+<footer>
+    <p>Derechos de autor © 2023 ENFALC</p>
+</footer>
+
+</html>
